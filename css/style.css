@@ -23,6 +23,12 @@ h3 {
   font-weight: 400;
 }
 
+/* p,
+div,
+a,
+span {
+  line-height: 1.6em;
+} */
 /* End Global */
 
 /* Start first screen */
@@ -31,6 +37,7 @@ h3 {
   background: #fcdb00;
   color: #010101;
   padding-top: 58px;
+  padding-bottom: 105px;
 }
 .header .row {
   justify-content: space-between;
@@ -48,5 +55,44 @@ h3 {
   font-size: 22px;
   font-weight: 700;
   color: #000;
+}
+
+.offer {
+  margin-top: 117px;
+}
+
+.offer__title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.offer__intro {
+  font-size: 20px;
+}
+.offer__text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #555555;
+  width: 400px;
+}
+
+.icons__item {
+  margin-right: 30px;
+}
+
+.icons__item a {
+  color: #000;
+  font-size: 42px;
+  transition: all 0.3s ease;
+}
+
+.icons__item a:hover {
+  text-decoration: none;
+  color: #ff4800;
+}
+
+.ipad {
+  display: block;
+  margin: 60px auto;
 }
 /* End first screen */
