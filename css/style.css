@@ -81,6 +81,10 @@ span {
   text-decoration: none;
 }
 
+.menu__item a:hover {
+  color: #ff4800;
+  transition: all 0.3s ease;
+}
 .offer {
   margin-top: 117px;
 }
