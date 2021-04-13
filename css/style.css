@@ -129,8 +129,9 @@ span {
 
 .feature__icon {
   font-size: 50px;
-  margin-right: 37px;
+  margin-right: 47px;
   color: #000;
+  max-width: 20px;
 }
 
 .feature__text {
@@ -245,6 +246,6 @@ span {
 
   .menu__item {
     text-align: center;
-    margin-bottom: 10px;
+    padding-bottom: 30px;
   }
 }
