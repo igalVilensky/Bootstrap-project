@@ -23,6 +23,23 @@ h3 {
   font-weight: 400;
 }
 
+h2 {
+  text-align: center;
+}
+
+.title {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.title__main {
+  font-size: 32px;
+}
+
+.yellow {
+  color: #fcdb00;
+}
 /* p,
 div,
 a,
@@ -96,3 +113,40 @@ span {
   margin: 60px auto;
 }
 /* End first screen */
+
+/* Start Second screen */
+
+.feature {
+  margin-bottom: 65px;
+}
+
+.feature__icon {
+  font-size: 50px;
+  margin-right: 37px;
+  color: #000;
+}
+
+.feature__text {
+  color: #898989;
+}
+/* End Second screen */
+
+/* Start Third screen */
+
+.touch {
+  background: #000;
+  color: #fff;
+}
+
+.form {
+}
+
+.form__input {
+  background: #fff;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.form__btn {
+}
+/* End Third screen */
