@@ -2,79 +2,87 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Bootstrap</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Company Name</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarColor02"
-            aria-controls="navbarColor02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Dropdown</a
-                >
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-                </div>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input
-                class="form-control mr-sm-2"
-                type="text"
-                placeholder="Search"
-              />
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-                Search
-              </button>
-            </form>
+    <header id="header" class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="./img/logo.jpg" alt="Logo" />
           </div>
-        </nav>
+          <div class="col-lg-5 ml-auto">
+            <nav>
+              <ul class="menu d-flex justify-content-center">
+                <li class="menu__item">
+                  <a href="#"> Features </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#"> Support </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#"> Blog </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="offer">
+              <h1 class="offer__title">Artistically Inspired App</h1>
+              <div class="offer__intro">
+                Simple to use for your app, products<br />showcase and your
+                inspiration
+              </div>
+              <p class="offer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum. Donec rutrum
+                sed sem quis venenatis. Proin viverra risus a eros volutpat
+                tempor. In quis arcu et eros porta lobortis sit
+              </p>
+              <ul class="icons d-flex">
+                <li class="icons__item">
+                  <a href="#">
+                    <i class="fa fa-apple"></i>
+                  </a>
+                </li>
+                <li class="icons__item">
+                  <a href="#">
+                    <i class="fa fa-android"></i>
+                  </a>
+                </li>
+                <li class="icons__item">
+                  <a href="#">
+                    <i class="fa fa-windows"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 ml-auto">
+            <img src="./img/ipad-new.png" class="ipad" alt="iPad" />
+          </div>
+        </div>
       </div>
-    </div>
+    </header>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
